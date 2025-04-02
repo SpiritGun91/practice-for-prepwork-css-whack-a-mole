@@ -1,32 +1,38 @@
 /* Your code here */
+.pf {
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(4, 1fr);
+}
+
 .wgs {
     position: relative;
-    width: 640px;
-    height: 482px;
+    width: 320px;
+    height: 241px;
     display: inline-block;
     overflow: hidden;
 }
 
 .wgs__mole-head {
     position: absolute;
-    width: 376px;
-    height: 356px;
-    left: 109px;
+    width: 188px;
+    height: 178px;
+    left: 55px;
+    transition: margin-top 0.25s;
 }
 
 .wgs__dirt-pile {
     position: absolute;
-    width: 640px;
-    height: 220px;
+    width: 320px;
+    height: 110px;
     bottom: 0;
 }
 
 .wgs__mole-head--hidden {
     position: absolute;
-    width: 376px;
-    height: 356px;
-    left: 109px;
-    margin-top: 482px;
+    width: 188px;
+    height: 178px;
+    left: 55px;
+    margin-top: 241px;
 }
 
 /* UNCOMMENT THE CODE BELOW WHEN DIRECTED */
